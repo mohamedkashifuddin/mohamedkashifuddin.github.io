@@ -1,18 +1,31 @@
+# Site settings
 title: Mohamed Kashifuddin - Data Engineer Portfolio
-logo: /assets/img/profile_image.jpeg
+logo: /assets/img/profile_image.jpeg # This is the correct way for this theme!
+description: A versatile Data Engineer with 5+ years of experience specializing in building and optimizing robust data pipelines across diverse cloud platforms including Microsoft Azure, Google Cloud Platform (GCP), and on-premise environments. Expertise in PySpark, SQL, Airflow, and Databricks.
 email: mohamedkashifuddin96@gmail.com
-description: >-
-  Mohamed Kashifuddin is a versatile Data Engineer with 5+ years of experience specializing in building and optimizing robust data pipelines across diverse cloud platforms including Microsoft Azure, Google Cloud Platform (GCP), and on-premise environments. Expertise in PySpark, SQL, Airflow, and Databricks.
-baseurl: ""
-url: "https://mohamedkashifuddin.github.io"
-github_username: mohamedkashifuddin 
-linkedin_username: mohamedkashifuddin
-medium_username: mohamed_kashifuddin
+url: "https://mohamedkashifuddin.github.io" # For GitHub Pages deployment
+baseurl: "" # the subpath of your site, e.g. /blog/
+repository: mohamedkashifuddin/mohamedkashifuddin.github.io # Used by the theme for GitHub links (replace with your actual GitHub repo: username/repo_name)
+
+# Theme settings
+theme: jekyll-theme-minimal
+
+# Google Analytics (replace with your ID, or remove if not needed)
+google_analytics: G-XGH47R13GP # Your GA4 property ID
+
+# Show download links (optional)
+show_downloads: true # Set to true to show 'Download ZIP' etc. links
+
+# Build settings
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  # Uncomment if you want an RSS feed:
+  # - jekyll-feed
+  # Uncomment if you want a sitemap:
+  # - jekyll-sitemap
 
-theme: jekyll-theme-minimal
+# Exclude from processing (standard for Jekyll projects)
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -24,4 +37,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-google_analytics: G-XGH47R13GP
