@@ -1,0 +1,27 @@
+title: Mohamed Kashifuddin - Data Engineer Portfolio
+logo: /assets/img/profile_image.jpeg
+email: mohamedkashifuddin96@gmail.com
+description: >-
+  Mohamed Kashifuddin is a versatile Data Engineer with 5+ years of experience specializing in building and optimizing robust data pipelines across diverse cloud platforms including Microsoft Azure, Google Cloud Platform (GCP), and on-premise environments. Expertise in PySpark, SQL, Airflow, and Databricks.
+baseurl: ""
+url: "https://mohamedkashifuddin.github.io"
+github_username: mohamedkashifuddin 
+linkedin_username: mohamedkashifuddin
+medium_username: mohamed_kashifuddin
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+theme: jekyll-theme-minimal
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+google_analytics: G-XGH47R13GP
